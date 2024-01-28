@@ -39,3 +39,16 @@ h1{
     flex: 1; /* Grow to fill available space */
     border: 1px solid green;
 }
+#inside {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Make sure the div takes the full height of its parent */
+}
+
+.inside {
+    font-size: 400%;
+    font-weight: 300;
+    letter-spacing: 1vh;
+    text-align: center; /* Center text within the div */
+}
