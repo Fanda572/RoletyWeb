@@ -2,37 +2,40 @@
 body{
     font-family: Raleway;
 }
-.Full{
-    border: 2px solid darkblue;
-}
 .Header{
-    border: 2px solid red; /* 2px width, solid style, #333 color */
+    margin-top: -4vh;
+    border: 1px solid red;
 }
 .Logo{
-    border: 2px solid #ff8800; /* 2px width, solid style, #333 color */
+    margin-bottom: -5%; /* Deleting hole between .Nadpis and .Logo */
+    text-align: center; /* Gets content to center */
 }
 .Nadpis{
-    border: 2px solid #333; /* 2px width, solid style, #333 color */
-    text-align: center;
-    letter-spacing: 7px;
-    
+    text-align: center; /* Gets content to center */
+    letter-spacing: 1vh;
 }
 h1{
     font-size: 80px;
-    margin-bottom: 20px;
-    font-weight: 300;
+    margin-bottom: 3vh; /* Hole between h1 and .Header */
+    font-weight: 300; /* Thickness of text */
 }
 .Main{
-    border: 2px solid cyan;
+    /* makes 3 sections to be next to each other */
     display: flex;
     flex-wrap: wrap;
 }
-#Parts{
+#Part1{
     flex: 1; /* Grow to fill available space */
-    margin: 10px; /* Optional: add some space between divs */
-    border: 1px solid #ccc;
-    height: 75vh;
+    border: 1px solid green;
 }
-.Logo{
-    text-align: center;
+#Part2{
+    flex: 1; /* Grow to fill available space */
+    margin-left: 0.5vh; /* room between parts */
+    margin-right: 0.5vh; /* room between parts */
+    height: 77vh; 
+    border: 1px solid green;
+}
+#Part3{
+    flex: 1; /* Grow to fill available space */
+    border: 1px solid green;
 }
