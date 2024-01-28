@@ -3,7 +3,7 @@ body{
     font-family: Raleway;
 }
 .Header{
-    margin-top: -4vh;
+    margin-top: -3.5vh;
     border: 1px solid red;
 }
 .Logo{
@@ -39,16 +39,40 @@ h1{
     flex: 1; /* Grow to fill available space */
     border: 1px solid green;
 }
-#inside {
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100%; /* Make sure the div takes the full height of its parent */
-}
-
-.inside {
-    font-size: 400%;
+.Vnitřní{
+    font-size: 60px;
     font-weight: 300;
     letter-spacing: 1vh;
-    text-align: center; /* Center text within the div */
+    color: black;
+    text-decoration: none;
+}
+.obdelník_A{
+    margin-top: 28vh;
+    text-align: center;
+
+}
+.Venkovní{
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 1vh;
+    color: black;
+    text-decoration: none;
+}
+.obdelník_B{
+    margin-top: 28vh;
+    text-align: center;
+}
+.Střešní{
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 1vh;
+    color: black;
+    text-decoration: none;
+}
+.obdelník_C{
+    margin-top: 28vh;
+    text-align: center;
+}
+a{
+    text-decoration: none;
 }
