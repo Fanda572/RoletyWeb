@@ -10,6 +10,9 @@ body{
     margin-bottom: -5%; /* Deleting hole between .Nadpis and .Logo */
     text-align: center; /* Gets content to center */
 }
+.Logo_Image{
+    width: 11vh;
+}
 .Nadpis{
     text-align: center; /* Gets content to center */
     letter-spacing: 1vh;
@@ -75,4 +78,5 @@ h1{
 }
 a{
     text-decoration: none;
+    cursor: pointer;
 }
