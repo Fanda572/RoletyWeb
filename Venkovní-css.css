@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: Raleway;
+}
+.Header{
+    margin-top: -3.5vh;
+    border: 1px solid red;
+}
+.Logo{
+    margin-bottom: -5%; /* Deleting hole between .Nadpis and .Logo */
+    text-align: center; /* Gets content to center */
+}
+.Logo_Image{
+    width: 7.75vh;
+}
+.Nadpis{
+    text-align: center; /* Gets content to center */
+    letter-spacing: 0.75vh;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 2.5vh; /* Hole between h1 and .Header */
+    font-weight: 300; /* Thickness of text */
+}
